@@ -29,10 +29,10 @@ const [currentName, setCurrentName] = useState(names[0]);
         <div className='flex items-center justify-between'>
           {/* logo */}
           <div className='  gap-3 z-50 flex items-center '>
-                <img className=' sm:w-16 w-8' src='/log.png'/>
+                <img className=' sm:w-12 w-8' src='/log.png'/>
                 <p className=' font-bold text-white  sm:text-3xl text-2xl'>Solve</p>
             </div>
-            <button className='sm:px-7 px-4 py-2 sm:text-xl text-xs bg-white text-black font-medium rounded-full'>Get the app</button>
+            <button className='sm:px-7 px-4 py-2 sm:text-xl text-xs bg-white text-black font-medium rounded-full'>Get in touch</button>
         </div>
     </div>
         <div className='sm:w-[45vw]  sm:space-y-5 space-y-2 mt-28 sm:mt-52 pb-16'>

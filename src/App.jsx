@@ -1,14 +1,23 @@
 import React from 'react'
-import Hero from './components/Hero'
-import MakingCustomersHappy from './components/MakingCustomersHappy'
-import Serve from './components/Serve'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
+import Privacy from './components/Privacy'
+import Terms from './components/Terms'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className=' '>
-      <Hero/>
-      <MakingCustomersHappy/>
-      <Serve/>
-    </div>
+    
+    <BrowserRouter>
+    <Routes>
+      
+      <Route path={"/"} element={<Home/>}/>
+      <Route path={"/privacy-policy"} element={<Privacy/>}/>
+      <Route path={"/terms&conditions"} element={<Terms/>}/>
+    </Routes>
+     <Footer/>
+    </BrowserRouter>
+    
   )
 }
