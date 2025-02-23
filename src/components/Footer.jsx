@@ -44,12 +44,12 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className='flex items-center justify-between text-[10px] sm:text-sm text-[#BDC2F6]'>
+      <div className='flex items-center justify-between text-[16px] sm:text-sm text-[#BDC2F6]'>
         <div className='hidden sm:block '>
         
         <p className='flex items-center text-white gap-1'><MdCopyright/>2025 Rovasoft Tech Solutions Ltd. All rights reserved.</p>
         </div>
-        <div className='sm:w-auto w-full flex justify-center gap-2 sm:gap-16'>
+        <div className='px-5 sm:px-0 sm:w-auto w-full grid grid-cols-1 sm:grid-cols-4  gap-2 sm:gap-16'>
         <NavLink to='/'  >
         About Solve
         </NavLink>

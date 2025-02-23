@@ -92,7 +92,7 @@ export default function Updates() {
   
     {updatesarray.map((data)=>{
       return(
-        <div key={data.id} className='space-y-4 sm:mr-5'>
+        <div key={data.id} className='cursor-pointer space-y-4 sm:mr-5'>
           <div className='object-cover '>
           <img   className='sm:w-[360px] w-full 2xl:h-[220px] h-[160px] rounded-lg object-cover' src={data.img} alt="" />
           </div>
