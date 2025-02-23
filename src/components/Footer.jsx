@@ -15,13 +15,13 @@ export default function Footer() {
                 <p className=' font-bold text-white  sm:text-3xl text-2xl'>Solve</p>
             </div>
             <div className='flex items-center gap-5 my-8'>
-              <a href='https://www.facebook.com/profile.php?id=61572909408001'>
+              <a href='https://www.linkedin.com/company/106595161'>
                 <FaLinkedin size={25}/>
               </a>
-              <a href='https://www.linkedin.com/company/106595161'>
+              <a href='https://x.com/solvebyrovasoft?s=09'>
                 <FaXTwitter size={25}/>
               </a>
-              <a href='https://x.com/solvebyrovasoft?s=09'>
+              <a href='https://www.facebook.com/profile.php?id=61572909408001'>
                   <FaFacebook size={25}/>
               </a>
               <FaYoutube size={25}/>

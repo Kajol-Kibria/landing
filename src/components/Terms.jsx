@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     
     <div className='leading-8 sm:text-lg text-sm'>
-      <div className='sm:px-20 px-5 py-5 flex items-center justify-between bg-[#000E28]'>
+      <div id='top' className='sm:px-20 px-5 py-5 flex items-center justify-between bg-[#000E28]'>
       <div className='  gap-3 z-50 flex items-center '>
                 <img className=' sm:w-12 w-8' src='/log.png'/>
                 <p className=' font-bold text-white  sm:text-3xl text-2xl'>Solve</p>

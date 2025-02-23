@@ -28,3 +28,9 @@ html, body{
   border-radius: 8px;
   background-color: #707070;
 }
+
+input[type=checkbox]{
+  accent-color:  #ffffff; 
+   
+  
+  }
